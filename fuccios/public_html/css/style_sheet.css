@@ -8,7 +8,7 @@ nav ul{
 	padding: 0;
 	overflow: hidden;
 	background-color: #e60000;
-	font-family: arial, sans-serif
+	font-family: arial, sans-serif;
 	text-decoration:none;
 }
 
@@ -21,4 +21,26 @@ nav li a{
 	color: white;
 	text-align: center;
   	padding:10px;
+  	text-decoration:none;
+}
+
+header {
+    background-color: #efe2a2;
+    color: black;
+    font-family: edwardian script itc regular, serif;
+    font-size: 60px;
+    padding-top: 15px;
+    padding-left: 10px;
+    }
+
+header div {
+    max-height: 0px;
+    text-align: center;
+    
+}
+
+h1{
+    color: black;
+    font-family: edwardian script itc regular, serif;
+    font-size: 32px;
 }
