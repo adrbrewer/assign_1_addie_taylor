@@ -62,4 +62,10 @@ p{
 	color:#092140;
 }
 
+.even {
+	background-color:#BF2A2A;
+}
 
+.odd {
+   background-color:#BEEB9F;
+}
