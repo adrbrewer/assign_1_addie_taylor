@@ -13,7 +13,7 @@ overflow: hidden;
 }
 
 nav li {
-float:center;
+float:none;
 }
 
 nav li a {
