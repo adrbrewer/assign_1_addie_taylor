@@ -17,6 +17,22 @@
     .below_menu_container{ 
       padding-top: 25px;
     }
+
+    .title{
+      text-align: center;
+      font-family: edwardian script itc regular, serif;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    .logo_img{
+      width: 300px; 
+      height: 250px;
+    }
+
+    .btn-primary{
+      padding-left: 50px;
+    }
   </style>
 </head>
 
@@ -53,11 +69,14 @@
      </nav>
        
     <header>
+      <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <div class="below_menu_container">
-            <h1>Fuccio's Restaurant</h1>
-            <img alt="Fuccio's" src="Pics/restaurant.png" width=250 height="200"/>
+            <h1 class="display-3 title">Fuccio's Restaurant</h1>
+            <img class="img-rounded logo_img" alt="Fuccio's" src="Pics/restaurant.png"/>
           </div>
+        </div>
+      </div>
      </header>
 
      <section>
@@ -77,7 +96,8 @@
            <h2>We'd love to serve you! Look at our events page and see all the fun activities we have to offer!</h2>
            <a style="padding-left: 25px; font-size: 20px; color: #e60000;" href='page_4.html'>Events</a>
            <h2>Check out our extensive Menu!</h2>
-           <a style="padding-left: 25px; font-size: 20px; color: #e60000;" href='page_2.html'>Menu</a>
+           <a href="page_2.html" button type="button" class="btn btn-primary">Menu</a>
+              
            <h2>We also do to-go orders. Call 319-795-8876 or just stop in!</h2>
         </article> 
 	     </section>
