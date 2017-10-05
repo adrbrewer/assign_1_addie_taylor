@@ -37,14 +37,6 @@ header {
     font-weight: bold;
 }
 
-h1{
-    color: black;
-    font-family: edwardian script itc regular, serif;
-    font-size: 40px;
-    text-align: center;
-}
-
-
 section{
     background-color: #FFF;
     padding-left: : 10px
@@ -63,6 +55,8 @@ section{
 
 .picture{
     padding: 25px;
+    width: 410px;
+    height: 280px;
 }
 
 #home_picture{
@@ -72,17 +66,28 @@ section{
    
 
 p{
-    padding-left: 25px;
+    padding-left: 70px;
     font-family: technicbold regular, sans-serif;
     max-width: 900px;
 }
 
-h2{
+h1{
     color: black;
+    font-family: edwardian script itc regular, serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2{
     font-family: technicbold regular, sans-serif;
     font-size: 24px;
-    padding-left: 15px;
+    padding-left: 35px;
 }
+
+h3{
+    padding-left:15px;
+}
+
 
 footer{
     background-color: #e60000;
@@ -142,3 +147,4 @@ section ul li{
     width: 300px; 
     height: 250px;
 }
+
