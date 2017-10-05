@@ -139,3 +139,7 @@ section ul li{
     width: 300px; 
     height: 250px;
 }
+
+ .active {
+      background-color: #b7000f;
+    }
