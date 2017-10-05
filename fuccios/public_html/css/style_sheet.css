@@ -35,14 +35,6 @@ header {
     font-family: edwardian script itc regular, serif;
     font-size: 60px;
     font-weight: bold;
-    padding-top: 15px;
-    padding-left: 10px;
-    }
-
-header div {
-    max-height: 0px;
-    text-align: center;
-    
 }
 
 h1{
