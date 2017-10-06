@@ -109,7 +109,6 @@ form {
 }
 
 table{
-    border-spacing: 25px;
     text-align: justify;
     font-family: technicbold regular,sans-serif;
 }
@@ -117,12 +116,12 @@ table{
 table th{
     font-size: 18px;
     text-decoration: underline;
-    padding-left: 15px;
+    text-align:center;
 }
 
 table td{
     font-size: 14px;
-    padding-left: 15px;
+    text-align: center;
 }
 
 section ul li{
@@ -140,7 +139,7 @@ section ul li{
     text-decoration: underline;
 }
 
-.logo_img{
-    width: 300px; 
-    height: 250px;
+.logo{
+    display:block;
+    margin:auto;
 }
